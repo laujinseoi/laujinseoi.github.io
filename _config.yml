@@ -1,0 +1,37 @@
+# Site settings
+title: 无他，唯手熟尔
+author: LauJinseoi
+author_avatar: /images/robot-logo.png
+email: laujinseoi@yeah.net
+description: 无他，唯手熟尔 
+url: "https://laujinseoi.github.io"
+domain: "laujinseoi.cn"
+github_username: laujinseoi
+github_site_repo: laujinseoi/laujinseoi.github.io
+comment:
+    disqus: true
+    duoshuo: false
+disqus: laujinseoi
+
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+    syntax_highlighter: rouge
+    extensions: ["fenced_code_blocks", "autolink", "tables", "smart"]
+
+sass:
+    style: :compressed
+    sass_dir: _sass
+
+permalink: pretty
+excerpt_separator: "<!-- more -->"
+
+# path
+categories_path: categories/
+tags_path: tags/
+
+
+gems:
+  - jekyll-sitemap
